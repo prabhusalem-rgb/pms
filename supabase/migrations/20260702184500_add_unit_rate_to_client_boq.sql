@@ -1,0 +1,1 @@
+ALTER TABLE client_boq_items ADD COLUMN IF NOT EXISTS unit_rate NUMERIC(15, 3) DEFAULT 0.000;
